@@ -1,0 +1,891 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "MyServer-1.12.2",
+      "name": "MyServer (Minecraft 1.12.2)",
+      "description": "MyServer Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464068,
+            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2854",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10789,
+                "MD5": "f8ad81d96980cbb999a817a5665134ff",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ShinobiNations-1.12.2",
+      "name": "ShinobiNations (Minecraft 1.12.2)",
+      "description": "ShinobiNations Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "org.spongepowered.asm.launch:_mixinbootstrap:1.1.0@jar",
+          "name": "_mixinbootstrap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1119478,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/_mixinbootstrap-1.1.0.jar",
+            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
+          }
+        },
+        {
+          "id": "jarno:ahznbstweaks:1.7@jar",
+          "name": "AHZNBS Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 74214,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/ahznbstweaks-2.0.jar",
+            "MD5": "e0306b4fd114d7c9aa1d422dad019c01"
+          }
+        },
+        {
+          "id": "com.almirion:almirioncore:1.0@jar",
+          "name": "Almirion Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2924,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/almirioncore-1.1.jar",
+            "MD5": "c26f7364894a5a81ed91b916a779a656"
+          }
+        },
+        {
+          "id": "net.mcreator:anbubingobook:1.5.3@jar",
+          "name": "Anbu Bingo Book",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 307996,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/AnbuBingoBook%20-%201.6.1.jar",
+            "MD5": "446d7ea464b6475fe0083644af546e0a"
+          }
+        },
+        {
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
+          "id": "net.darkhax:attributefix:1.0.12@jar",
+          "name": "Attribute Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4525,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/AttributeFix-Forge-1.12.2-1.0.12.jar",
+            "MD5": "329aabfc4713a78d0b7daaf9034838e9"
+          }
+        },
+        {
+          "id": "net.mcreator:baryonexpansion:1.0.0@jar",
+          "name": "BaryonExpansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 887254,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/Baryon%20Expansion_beta2.jar",
+            "MD5": "026e9d4434e9bafd0019f190cf5f402b"
+          }
+        },
+        {
+          "id": "com.biju_unleashing:biju_unleashing:1.7.3@jar",
+          "name": "Biju Unleashing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42902905,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/biju_unleashing-1.7.3.jar",
+            "MD5": "3f2c24a2df5a5cb7993abd8ff792a4b4"
+          }
+        },
+        {
+          "id": "locusway.colorfulhealthbar:colorfulhealthbar:0.0.4a@jar",
+          "name": "Colorful Health Bar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16447,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/colorfulhealthbar-0.0.4a.jar",
+            "MD5": "893b964dfe07f86de0617943d2d17427"
+          }
+        },
+        {
+          "id": "us.getfluxed.controlsearch:controlling:3.0.12.4@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 34383,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/Controlling-3.0.12.4.jar",
+            "MD5": "0fce6c9a123523205ac4af5e4b616dea"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9932071,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/CustomNPCs_1.12.2-03Feb22snapshot.jar",
+            "MD5": "1cf0190c237e1f8437c195d788d78fda"
+          }
+        },
+        {
+          "id": "com.brandon3055.csg:customstartinggear:1.2.0@jar",
+          "name": "Custom Starting Gear",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23171,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/CustomStartingGear-1.12-1.2.0.9-universal.jar",
+            "MD5": "780bf4e47f61f4388cc60b0e24bc4044"
+          }
+        },
+        {
+          "id": "gg.essential.loader.stage0:essential_1:3-10-8_forge_1-12-2@jar",
+          "name": "Essential_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55295533,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/Essential_1-3-10-8_forge_1-12-2.jar",
+            "MD5": "45794a30745631353d7c147e607d7c49"
+          }
+        },
+        {
+          "id": "com.vecoo:extralib:2.1.4@jar",
+          "name": "ExtraLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7775475,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/ExtraLib-2.1.4-1.12.2-Forge.jar",
+            "MD5": "7c2280813d458c840719f016f0cf4ab2"
+          }
+        },
+        {
+          "id": "com.vecoo:extraquests:1.6.1@jar",
+          "name": "ExtraQuests [FTB Quests]",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38811,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/ExtraQuests-1.6.1-1.12.2-Forge.jar",
+            "MD5": "01e0a0063c92a1c92d85d43a0f9c0f49"
+          }
+        },
+        {
+          "id": "com.feed_the_beast:ftblib:5.4.7.2@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 934370,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/FTBLib-5.4.7.2.jar",
+            "MD5": "ea749a3a3391d490ffcdf025e5de48d9"
+          }
+        },
+        {
+          "id": "com.feed_the_beast:ftbquests:1202.9.0.15@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1091954,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/FTBQuests-1202.9.0.15.jar",
+            "MD5": "5cd033804a5f2ba8f87f539201a22fb2"
+          }
+        },
+        {
+          "id": "com.latmod.mods:itemfilters:1.0.4.2@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 78935,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/ItemFilters-1.0.4.2.jar",
+            "MD5": "c89d595cdef3cc93f2acbc31333e418b"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          }
+        },
+        {
+          "id": "net.decentstudio:jutsuaddon:1.0@jar",
+          "name": "NarutoMod Jutsu Add-on by bybyzyanka",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 216559,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/JutsuAddon%20v1.0.jar",
+            "MD5": "82e306959499e189896450cfc2d95b79"
+          }
+        },
+        {
+          "id": "net.mcreator:kabutoaddon:1.0.0@jar",
+          "name": "Kabutoaddon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3357299,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/kabutoaddon%205.5.8-beta.jar",
+            "MD5": "349d68eff4a427d7f1f3c53c37b6d897"
+          }
+        },
+        {
+          "id": "net.narutomod:narutomod:0.3.2-beta@jar",
+          "name": "NarutoMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30998545,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/minimap%20v.2.0.jar",
+            "MD5": "0cfe576f982ddafca307663b6cfe3c19"
+          }
+        },
+        {
+          "id": "net.mcreator:rerollthingy:1.0.1@jar",
+          "name": "Reroll Thingy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368527,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/Naruto-Mod-Reroll-1.0.1.jar",
+            "MD5": "d91af3ccad2e4c4aae42dc8c0aae9f05"
+          }
+        },
+        {
+          "id": "net.mcreator:narutomodaddononero:1.0.0@jar",
+          "name": "NarutoModAddonOneRo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6301308,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/NarutoMod-Addon_byAnimeSupremeTeam-v2.0.jar",
+            "MD5": "d962b813061ecc50442b81380d38752b"
+          }
+        },
+        {
+          "id": "narutomodaddon:narutomodaddon:1.1@jar",
+          "name": "Naruto Chakra Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1903408,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/NarutoModAddon-0.3.1-%20V1.3.jar",
+            "MD5": "82eec852cfde633100114e3fb406dc09"
+          }
+        },
+        {
+          "id": "com.ratja:narutoorigin:1.12.00@jar",
+          "name": "Naruto Origin Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2507644,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/NarutoOriginsMod-1.12.01.jar",
+            "MD5": "5fcc5e708de8667dbb1076320a6a69d5"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5%20(1).jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "vazkii.patchouli.common.base:patchouli:1.0-23.6@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 472464,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/Patchouli-1.0-23.6.jar",
+            "MD5": "5450477c1ce7189c5ee11595d5e03a7c"
+          }
+        },
+        {
+          "id": "com.example.examplemod:hybriddotsu:1.0.0@jar",
+          "name": "Hybrid Dotsu Support",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851852,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/ResistanceImmortalBugFix.jar",
+            "MD5": "30dbaab31c18cd2903530e234493b3b9"
+          }
+        },
+        {
+          "id": "net.decentstudio:sealsaddon:1.0@jar",
+          "name": "NarutoMod Seals Add-on by bybyzyanka",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 177819,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/SealsAddon%20v1.0.jar",
+            "MD5": "3e7457fae441d68fac13ec9c261054e1"
+          }
+        },
+        {
+          "id": "com.leolifeless:shinobiaddon:1.3.9_dev-build@jar",
+          "name": "Dynamic Dojutsu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16394385,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/shinobiaddon-1.3.9_dev-build.jar",
+            "MD5": "e71123e5796b1e6ae386d4ce1820e6d2"
+          }
+        },
+        {
+          "id": "com.example:rinneganaddon:2.1.0@jar",
+          "name": "Rinnegan Path Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 194073,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/ShinobiNationsAddon-0.1.2.jar",
+            "MD5": "77642fb412a7fb500cdfc81308636a63"
+          }
+        },
+        {
+          "id": "net.saberart:shinobiorigins:1.7.0.BETA@jar",
+          "name": "ShinobiOrigins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39108200,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/shinobiorigins-1.7.0.BETA.jar",
+            "MD5": "46d17226414f92d2724b39a5b2a1587c"
+          }
+        },
+        {
+          "id": "net.saberart:shinobioriginsutils:1.7.0.BETA@jar",
+          "name": "ShinobiOrigins Utils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 330061,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/shinobioriginsutils-1.7.0.BETA.jar",
+            "MD5": "2b4d1e86c198e8a225fcf1e18692b552"
+          }
+        },
+        {
+          "id": "com.shinobinations.questbook:shinobiquestbook:1.0.0@jar",
+          "name": "Shinobi Quest Book",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20543,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/ShinobiQuestBook-1.0.0.jar",
+            "MD5": "b0a8ef549056c0d602b9aa6d3a5d4f14"
+          }
+        },
+        {
+          "id": "net.addonrbnl:addonrbnl:1.0@jar",
+          "name": "Shinobi Ninja Way Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40385403,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/The_Shinobi_Way_V1.2.jar",
+            "MD5": "ad124005ed589cbdd2c33476310bd3d7"
+          }
+        },
+        {
+          "id": "net.torocraft:torohealthmod:1.12.2-11@jar",
+          "name": "ToroHealth Damage Indicators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66307,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/torohealth-1.12.2-11.jar",
+            "MD5": "44a01eff9632e994de91c6e703f6dc01"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;e6b38e8@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1479535,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
+            "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+          }
+        },
+        {
+          "id": "xaero.lib:xaerolib:1.1.0@jar",
+          "name": "XaeroLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 597314,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/xaerolib-forge-1.12.2-1.1.0.jar",
+            "MD5": "56937f0da869cd049d0a3880fff4d485"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1992435,
+            "url": "https://onenonlytito-dev.github.io/shinobi-nations-dist/servers/ShinobiNations-1.12.2/forgemods/required/xaerominimap-forge-1.12.2-25.3.10.jar",
+            "MD5": "03def78b22ae207ff6a1c245ab737c7c"
+          }
+        }
+      ]
+    }
+  ]
+}
