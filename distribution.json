@@ -239,19 +239,19 @@
     },
     {
       "id": "ShinobiNations-1.12.2",
-      "name": "ShinobiNations (Minecraft 1.12.2)",
-      "description": "ShinobiNations Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
+      "name": "Shinobi Nations",
+      "description": "Welcome to Shinobi Nations!",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "ShinobiNations.mcserver.host:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Shinobi Nations",
+        "largeImageText": "Shinobi Nations",
+        "largeImageKey": "seal-circle"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
